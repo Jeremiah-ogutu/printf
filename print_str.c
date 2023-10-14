@@ -17,7 +17,7 @@ int _strlen(char *str)
 #include "main.h"
 
 /*
-* _strlenc - Returns length off a constant string
+* _strlenc - Returns length of a constant string
 * @str: string pointer
 * Return: 1
 */
