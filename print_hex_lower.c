@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * printf_hex_lower-fuction that prints hexadecimal integer (lowercase)
  * @args:interger argument holder
@@ -13,7 +14,7 @@ int printf_hex_lower(va_list args)
 
 	snprintf(hex_str, sizeof(hex_str), "%x", num);
 
-	for (i = 0; hex_str[i] i= '\0'; i++)
+	for (i = 0; hex_str[i] != '\0'; i++)
 	{
 		_putchar(hex_str[i]);
 		printed_chars++;

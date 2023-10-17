@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * print_special_char-function that prints special character %
+ * print_percent-function that prints special character %
  * Return:i success
  */
 
-int print_special_char(void)
+int print_percent(void)
 {
 	_putchar('%');
-	return(1);
+	return (1);
 }

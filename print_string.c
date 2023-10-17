@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_string- function taht prints a string.
- * @val - expected arguments
+ * @val:expected arguments
  * Return:length
  */
 int print_string(va_list val)
@@ -15,7 +15,7 @@ int print_string(va_list val)
 		{
 			str = "(NULL)";
 		}
-	len = strlen(str);
+	len = _strlen(str);
 	for (i = 0; i < len; i++)
 	{
 		_putchar(str[i]);

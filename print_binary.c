@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <limits.h>
 /**
  *printf_binary-fuction that print the binary number
  *@args:argument holder for intager
@@ -12,7 +13,7 @@ int printf_binary(va_list args)
 	int bitMask = 1;
 	size_t i;
 
-	for (i = 0; i < sizeof(int) * 8; i++)
+	for (i = 0; i < CHAR_BIT * sizeof(int); i++)
 	{
 		_putchar((num & bitMask) ? '1' : '0');
 		printed_chars++;

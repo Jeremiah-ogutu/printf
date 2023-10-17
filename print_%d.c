@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * print_integer- function tha print integer
- * @arg-int arguments holder
+ * printf_integer- function tha print integer
+ * @args:int arguments holder
  * Return:integer
  */
 int printf_integer(va_list args)
