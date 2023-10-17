@@ -29,6 +29,5 @@ int printf_hex_lower(va_list args);
 int printf_hex_upper(va_list args);
 int printf_string_nonprint(va_list args);
 int printf_pointer(va_list args);
-int get_width(const char *format, int *i, va_list list);
 
 #endif
